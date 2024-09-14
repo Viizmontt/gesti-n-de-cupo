@@ -1,0 +1,37 @@
+
+.Guazapa-cuadro_asignar_cupo_asesor{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+/*Columna de dos cupos*/
+.Guazapa-cupoindividual_asignar_cupo_asesor{    
+    display: block;
+    height: 85px;
+    width: 160px;
+}
+/*texto asesor*/
+.Guazapa-textasesor_asignar_cupo_asesor{
+    text-align: center;
+    height: 50px;
+    width: 160px;
+}
+/*bloque iconos manejo de cupos*/
+.Guazapa-bloke_botones_asignar-eliminar_cupo_asesor{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    width: 160px;    
+}
+/*bloque por cada boton: agregar y ELIMINAR*/
+.Guazapa-botones_cupo_asignar-eliminar_cupo_asesor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*iconos: agregar, modificar y ver cupos*/
+.Guazapa-icon_asignar_cupo_asesor{
+    height: 20px;
+    width: 20px;
+}

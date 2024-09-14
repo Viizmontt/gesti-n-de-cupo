@@ -1,0 +1,66 @@
+.G-marco_asignacion_cupos{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+/*ESTRUCTURA DE LA TABLA*/
+#g-asignar-cupos-main-container{
+	width: 1200px;
+	text-align: center;
+}
+.g-asignar-cupos-table{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+.g-asignar-cupos-thead{
+	background-color: #0E1A77; 
+	border-bottom: solid 5px #97DA2B;
+	color: white;
+	text-align: center;
+    height: 50px;
+	}
+.g-asignar-cupos-td{
+	border: 1px solid black;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+/*                                                                                                             */
+/*                                                                                                             */
+/*-------------------------------------------------------------------------------------------------------------*/
+/*ESTRUCTURA DE LOS BLOQUES*/
+
+/*texto asesor*/
+.g-asignar-cupos-textasesor{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 160px;
+}
+/*bloque tupla de los iconos: agregar, modificar, ver*/
+.g-asignar-cupos-botones{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 160px;
+}
+/*botones: agregar, modificar y ver*/
+.g-asignar-cupos-botones_cupo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+asignar_cupos-productos_agregar_boton{ 
+    margin: 0;
+    width: 100%;
+    padding: 0.4em;
+    background: none;
+    outline: 0;
+    
+}
